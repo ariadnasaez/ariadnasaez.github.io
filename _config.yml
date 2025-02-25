@@ -1,5 +1,5 @@
 remote_theme: daattali/beautiful-jekyll@6.0.1
-title: My website
+title: Cloud computing and Machine learning
 author: Ariadna Saez
 
 ###############################################
@@ -10,7 +10,6 @@ author: Ariadna Saez
 
 navbar-links:
   About Me: "aboutme"
-  Example Page: "example"
 
 ################
 # --- Logo --- #
@@ -18,7 +17,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/images/ferran.jpeg"
+avatar: "/images/dni_pic_ariadna_saez.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -36,12 +35,12 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "ferran@ferranaran.com"
-  facebook: ferranad
+  email: "ariadna.saezz@gmail.com"
+#  facebook: ferranad
   github: ariadnasaez
-  twitter: ferranad
-  youtube: "@ferranad"
-  linkedin: ferranaran
+#  twitter: ferranad
+#  youtube: "@ferranad"
+  linkedin: ariadnasaez
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -77,7 +76,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "ferranad.github.io"
+url-pretty: "ariadnasaez.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -111,17 +110,18 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#F0FFF0"        # Light Honeydew green for a fresh background  
+text-col: "#2E4A2E"        # Deep greenish-gray for readable text  
+link-col: "#008000"        # Classic green for links  
+hover-col: "#006400"       # Darker green for hover effects  
+navbar-col: "#E0F2E0"      # Light pastel green for navbar  
+navbar-text-col: "#2E4A2E" # Consistent with text color  
+navbar-border-col: "#A3C9A3" # Soft green border for navbar  
+footer-col: "#E0F2E0"      # Matching navbar with light pastel green  
+footer-text-col: "#556B56" # Muted greenish-gray for footer text  
+footer-link-col: "#2E8B57" # Sea green for links  
+footer-hover-col: "#006400" # Dark green for hover effects  
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
